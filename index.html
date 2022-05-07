@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jainish Solanki</title>
+    <style>
+    
+            
+        
+        .container{
+            display: flex;
+            height: 54px;
+            width: 100%;
+            justify-content: end;
+            justify-content: space-between; 
+        }
+        .item{
+            font-size: 25px;
+            width: 156px;
+            height: 30px;
+            padding: 5px;
+            margin: 10px;
+            color: black;
+            font-family: 'Baloo Bhai', cursive;
+            align-content: center;
+            box-shadow: 20px 20px 60px #ffffff
+       -20px -20px 60px #ffffff;
+       transition: all 0.3s ease; 
+        }
+    
+
+        .item:hover{
+            background-color: #2ceae5;
+            color: blue;
+            text-decoration: bold;
+            transform: translate3d(-5px,-8px,-3px);
+            /* box-shadow:  0px 10px 25px */
+       /* rgba(46, 223, 229, 0.445); */
+            /* border: 1px solid black; */
+            /* border-radius: 20px; */
+            color: white;
+            background: rgba( 255, 255, 255, 0.25 );
+           box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+               -webkit-backdrop-filter: blur( 4.5px );
+              border-radius: 10px;
+             border: 1px solid rgba( 255, 255, 255, 0.18 );
+            
+
+        }
+        .introduction{
+            display: flex;
+            /* background-color: greenyellow; */
+            margin-top: 100px;
+            margin-left: 200px;
+            font-family: 'Inter', sans-serif;
+            font-style: bold;
+            padding: 50px;
+        }
+        #image_1{
+            display: inline;
+            height: 450px;
+            width: 700px;
+            margin-left: 200px;
+        }
+        .container2{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 500px;
+            justify-content: space-around;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            
+        }
+        .item1{
+            background-color: #ca4938;
+            padding: 10px;
+            /* border-radius: 15px; */
+            width: 350px;
+            /* box-shadow: 20px 20px 60px #ffffff
+       -20px -20px 60px #ffffff; */
+       transition: all 0.3s ease; 
+       background: rgba( 255, 255, 255, 0.25 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4.5px );
+               -webkit-backdrop-filter: blur( 4.5px );
+              border-radius: 10px;
+          border: 1px solid rgba( 255, 255, 255, 0.18 );
+            
+        }
+        .item1:hover{
+            transform: translate3d(-5px,-8px,-3px);
+            box-shadow:  0px 10px 25px
+       rgba(46, 223, 229, 0.445);
+       background-color: white;
+        }
+        .endbar{
+            width: 100%;
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            margin-top: 50px;
+            display: grid;
+         height: 150px;
+          width: 100%;
+           font-family: "Poppins", sans-serif;
+         place-items: center;
+           background: linear-gradient(315deg, #ffffff, #d7e1ec);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            
+        </div>
+    </div>
+    
+       <div class="container">
+           <img src="trial_logo_3.jpg" alt="My Logo" id="logoImg" >
+        <div class="item" id="item-1">
+            <a href=index.html style="text-decoration: none; color: white;">Home</a></div>
+        <div class="item" id="item-2">
+            <a href=about.html style="text-decoration: none; color: #ffffff;"> About Me</a></div>
+        <div class="item" id="item-4">
+            <a href=contact.html style="text-decoration: none; color: #ffffff;" >Contact Me</a></div>
+
+    </div>
+
+    <div class="introduction">
+
+        <h1 style="font-size: 45px; color: black;">Hi, I'm Jainish Solanki <br> <br> A First Year Student At IIT Kharagpur <br> <br> A Web and App developer <br> <br> An Aerospace Engineering Student</h1>
+        <!-- <h2 style="font-size: 33px; color: blueviolet;"></h2>
+        <h2 style="font-size: 30px; color: brown;"></h2> -->
+        
+         <img src="trial_2.jpg" alt="profile photo" id="image_1">
+    </div>
+      
+    <div class="container2">
+        <div class="item1" id="item1-1">Trial 1</div>
+        <div class="item1" id="item1-2">Trial 2</div>
+        <div class="item1" id="item1-3">Trial 3</div>
+        <div class="item1" id="item1-4">Trial 4</div>
+    </div>
+    
+    <!-- <div class="endbar">
+        <ul class="wrapper">
+            <li class="icon facebook">
+              <span class="tooltip">Facebook</span>
+              <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+            <li class="icon twitter">
+              <span class="tooltip">Twitter</span>
+              <span><i class="fab fa-twitter"></i></span>
+            </li>
+            <li class="icon instagram">
+              <span class="tooltip">Instagram</span>
+              <span><i class="fab fa-instagram"></i></span>
+            </li>
+            <li class="icon github">
+              <span class="tooltip">Github</span>
+              <span><i class="fab fa-github"></i></span>
+            </li>
+            <li class="icon youtube">
+              <span class="tooltip">Youtube</span>
+              <span><i class="fab fa-youtube"></i></span>
+            </li>
+          </ul>
+    </div> -->
+    
+</body>
+</html>
